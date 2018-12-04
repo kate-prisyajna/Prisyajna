@@ -1,0 +1,110 @@
+/*Categories*/
+
+.categories {
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 540px;
+    margin: 25px;
+
+}
+
+.categories div{
+    float: left;
+    
+}
+.categories h5{
+    font-family: 'Trueno', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--txt-color-plain);
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+}
+
+.categories h3{
+    font-family: 'Trueno', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+
+}
+
+.categories  button{
+    border: 0;
+    text-align: center;
+    padding: 20px 30px;
+    font-family: 'Trueno', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+    color: #ffff;
+    
+}
+
+.categories__nike h3{
+   color: #41d9cd; 
+}  
+
+.categories__nike div{
+    background-image: url("../img/logo_s.png");
+    background-repeat: no-repeat;
+    width: 440px;
+    margin: 50px;
+    background-position: left center;
+        
+}
+
+
+.categories__nike button{
+    background-color: #41d9cd;  
+    display: block;
+    margin: 445px auto 50px;
+}
+    
+
+
+
+.categories__nike{
+    width: 540px;
+    height: 540px;
+    background-image: url("../img/nike_kurie.png");
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    
+}
+
+.categories__arrivals{
+    width: 540px;
+    height: 255px;
+    background-image: url("../img/new_arriavals.png");
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    
+
+}
+
+.categories__athletas{
+    width: 255px;
+    height: 255px;
+    background-image: url("../img/athletes.png");
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    
+}
+
+.categories__premium{
+    width: 255px;
+    height: 255px; 
+    background-image: url("../img/premium.png");
+    background-repeat: no-repeat;
+    background-color: #cecece;
+    background-position: center bottom;
+    
+
+}

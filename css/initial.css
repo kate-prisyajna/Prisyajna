@@ -1,0 +1,70 @@
+/*  PRESET  */
+
+:root {
+  
+  --base-width: 1140px;
+  --min-width: 320px;
+  --space: 15px;
+  --column: 65px;
+  
+  --txt-color-plain: #ffffff;
+  --txt-color-invert: #ff7270;
+  --txt-color-active: #633231;
+  --txt-color-title: #bdb9b5;
+  --txt-color-items: #dcc5b8;
+  --bgc_pinc: #ff7270;
+  --bgc_brown_dark: #482424;
+  --bgc_brown2_light: #633231;
+    
+    
+
+}
+
+header, 
+footer, 
+main, 
+section,
+body{
+  
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+   font-family: 'Trueno', sans-serif;
+  
+}
+
+.container{
+  
+    width: var(--base-width);
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+      
+}
+
+
+
+.clearfix::after {
+  
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.visually-hidden {
+  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: none;
+  margin: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  
+}

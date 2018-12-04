@@ -1,0 +1,11 @@
+.feedbacks{
+    height: 500px;
+    width: 100%;
+    clear: both;
+    background-image: url(../img/feedback_bg.png);
+    background-color: #482423;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+

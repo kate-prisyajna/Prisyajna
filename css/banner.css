@@ -1,0 +1,89 @@
+/*Banner*/
+
+.banner {
+    margin: 0;
+    padding: 0;
+    height: 480px;
+    margin-left: 570px;
+    margin-top: 245px;
+        
+}
+.boot{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f0efee;
+    background-position: left; 
+    background-repeat: no-repeat;
+    height: 600px;
+    background-image: url("../img/Pinc_nike.png");
+/*        background-image: url("../img/banner_all.png");*/
+
+    position: absolute;
+    top: 126px;
+    left: 0;
+    z-index: -50;
+            
+}
+
+.banner h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trueno', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--txt-color-active);
+    
+}
+
+.banner h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trueno', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 70px;
+    color: var(--txt-color-active);
+    line-height: 80px;
+       
+}
+
+.banner h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trueno', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--txt-color-invert);
+    line-height: 60px;
+    
+}
+
+.banner p {
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-family: 'Trueno', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    color: #8a8784;
+    line-height: 26px;
+    
+}
+
+.banner  button{
+    border: 0;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: var(--bgc_pinc);
+    font-family: 'Trueno', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+    color: #ffff;
+    
+}
