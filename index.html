@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/filters.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/feedbacks.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 
 </head>
     <body>
@@ -28,9 +29,7 @@
             </div>
             
             <div class="right">            
-                 <a  href="index.html">
-          <img src="img/cart.png" alt="Cart" width="20">
-                </a>
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                 <span>$465.00 </span>
                 <span class="cart__item">4 Items</span>
                 <span class="login">Login</span><span class="login active">Register</span>
@@ -90,15 +89,15 @@
             <div class="filters">
                 <form>
         <label>
-            <input name="filter" type="radio" checked="checked" value="new">
+            <input name="filter" type="radio" checked value="new">
             <span>NEW</span>
         </label>
                     <label>
-            <input name="filter" type="radio" checked="" value="pop">
+            <input name="filter" type="radio"  value="pop">
             <span>POPULAR</span>
         </label>
                     <label>
-            <input name="filter" type="radio" checked="" value="top">
+            <input name="filter" type="radio"  value="top">
             <span>TOP PICKS</span>
         </label>
                 </form>  
@@ -181,21 +180,40 @@
         </div>
  
         <div class="feedbacks">
-                <form class="feedbacks container">
+                <form class="container">
         <label>
-            <input name="feedback" type="radio" checked="" value="autor_1">
-            <span>Christopher Atkins</span>
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+            <input name="feedback" type="radio"  value="autor_1">
+            <div class="feedback__user">
+    <img src="img/photo.png" class="photo">
+            <span class="feedback__name">Christopher Atkins</span>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <div class="triangle"></div>
+                <p class="feedbacks__text">“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
+                </div>
+                        
+           
         </label>
                     <label>
-            <input name="feedback" type="radio" checked="checked" value="autor_2">
-            <span>Andrew Ferraccioli</span>
-                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+                        <input name="feedback" type="radio" checked value="autor_2">
+                        <div class="feedback__user">
+                             <img src="img/photo.png" class="photo">
+                        <span class="feedback__name">Andrew Ferraccioli</span>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                            <div class="triangle"></div>
+                            <p class="feedbacks__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+                        </div>
+                        
         </label>
                     <label>
-            <input name="feedback" type="radio" checked="" value="autor_3">
-            <span>Sandra Jensen</span>
-                         <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+                        <input name="feedback" type="radio"  value="autor_3">
+                        <div class="feedback__user">
+                             <img src="img/photo.png" class="photo">
+                        <span class="feedback__name">Sandra Jensen</span>
+                        <div class="rating">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+                            <div class="triangle"></div>
+                            <p class="feedbacks__text">“Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+                        </div>
+                         
         </label>
                 </form>  
             </div>

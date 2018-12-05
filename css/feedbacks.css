@@ -9,3 +9,81 @@
     background-position: center center;
 }
 
+.feedbacks form{
+    text-align: center;
+    padding-top: 80px;
+    vertical-align: top;
+}
+
+.feedback__user{
+    display: inline-block;
+    text-align: center;
+    width: 190px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.feedbacks .photo{
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: block;
+    margin: 0 auto 25px;
+    
+}
+
+.feedback__name{
+    color: #fff;
+    font-weight: 600;
+   font-size: 16px;
+}
+
+.rating{
+    font-size: 20pt;
+    color: var(--txt-color-invert);
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+
+.feedbacks p{
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 45px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0;
+    
+}
+
+
+.feedbacks label:hover>div, .feedbacks label input[type='radio']:checked + div{
+   opacity: 1; 
+}
+
+
+.feedbacks label input[type='radio']:checked + div p{
+   display: block; 
+}
+
+.feedbacks label input[type='radio']:checked + div .triangle{
+    display: block; 
+    width: 0;
+    height: 0;
+    border-top: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px  solid  #fff;
+    margin: 0 auto;
+    opacity: 0.1;
+    
+    }
+
+.feedbacks label{
+    display: inline-block;
+}
+
+.feedbacks input[type='radio'] {
+    display: none;
+}
