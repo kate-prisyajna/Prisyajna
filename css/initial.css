@@ -37,7 +37,7 @@ body{
 }
 
 .container{
-  
+    clear: both;
     width: var(--base-width);
     margin: 0 auto;
     padding: 0;
