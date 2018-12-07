@@ -46,7 +46,8 @@
 }
 
 
-.feedbacks p{
+.feedbacks__text{
+    width: 1020px;
     display: none;
     position: absolute;
     left: 0;
@@ -63,7 +64,7 @@
 }
 
 
-.feedbacks label input[type='radio']:checked + div p{
+.feedbacks label input[type='radio']:checked + div .feedbacks__text{
    display: block; 
 }
 

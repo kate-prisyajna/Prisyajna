@@ -1,5 +1,5 @@
 .filters{
-    margin: 75px auto 50px;
+    margin: 100px auto 50px;
     text-align: center;
     
 }
@@ -28,12 +28,13 @@
 .products{
     width: 100%;
     margin: 0;
+    clear: both;
     
     
 }
 
 .product__item{
-    width: 195px;
+    width: 193px;
     height: 285px;
     float: left;
     border: #e0dfde 1px solid;

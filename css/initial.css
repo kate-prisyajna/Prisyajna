@@ -2,7 +2,7 @@
 
 :root {
   
-  --base-width: 1140px;
+  --base-width: 1110px;
   --min-width: 320px;
   --space: 15px;
   --column: 65px;
@@ -31,7 +31,8 @@ body{
     padding: 0;
     max-width: 100%;
     width: 100%;
-   font-family: 'Trueno', sans-serif;
+    font-family: 'Trueno', sans-serif;
+    color: #fff;
   
 }
 
@@ -68,4 +69,16 @@ body{
   overflow: hidden;
   clip: rect(0 0 0 0);
   
+}
+
+.btn{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    font-style: bold;
+    font-weight: 600;
 }
