@@ -38,7 +38,7 @@
                 <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                 <span>$465.00 </span>
                 <span class="cart__item">4 Items</span>
-                <span class="login">Login</span><span class="register active">Register</span>
+                <span class="login">Login</span><span class="register">Register</span>
             </div>
         </div>
         </div>
@@ -306,18 +306,19 @@ Reviews
       <div class="overlay">
 <form name="signin" class="signin-form" action="#">
 <h2>Sign in form</h2>
-<button class="btn btn--close" type="button"><span class="visually-hidden">close</span></button>
+<i class="fa fa-times fa-2x btn--close" aria-hidden="true"></i> <span class="visually-hidden">close</span>
 <label for="signin-name">Enter your name</label>
 <input type="text" name="user-name" class="signin-field" id="signin-name">
 <label for="signin-password">Enter your password</label>
 <input type="password" name="user-password" class="signin-field" id="signin-password">
 <button type="submit" class="btn btn--submit">Sign in</button>
+<div class="logo__form"></div>
 </form>
 </div>
    <div class="overlay__reg">
 <form name="signin" class="signin-form" action="#">
 <h2>Reg form</h2>
-<button class="btn btn--close" type="button"><span class="visually-hidden">close</span></button>
+<i class="fa fa-times fa-2x btn--close" aria-hidden="true"></i> <span class="visually-hidden">close</span>
 <label for="signin-email">Enter email</label>
 <input type="mail" name="user-email" class="signin-field" id="reg-email">
 <label for="signin-name">Enter your name</label>
@@ -327,8 +328,10 @@ Reviews
 <label for="signin-password">Confirm your password</label>
 <input type="password" name="user-password" class="signin-field" id="reg-password__conf">
 <button type="submit" class="btn btn--submit">Register</button>
+<div class="logo__form"></div>
 </form>
 </div>
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
     <script src="js/main.js"></script>
     <script src="js/new-signin.js"></script>
     </body>

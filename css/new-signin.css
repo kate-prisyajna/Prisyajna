@@ -24,59 +24,86 @@
 
 /* SIGN IN FORM */
 .signin-form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: 1;
-  width: 500px;
-  height: 420px;
-  background-color: white;
-  padding: 30px;
-  color: var(--txt-color-active);
-  display: none;
-    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 360px;
+    height: 420px;
+    background-color: white;
+    padding: 30px;
+    color: var(--txt-color-active);
+    display: none;
     border-radius: 10px;
     overflow: hidden;
     padding: 55px 55px 37px 55px;
     background: var(--bgc_pinc);
-    background: linear-gradient(to top left, #f1a8a7, var(--bgc_pinc), grey, white);
+    background: linear-gradient(to top left, white, grey, white, var(--bgc_pinc), grey);
+}
 
-}
 .signin-form .btn{
- position: relative;
- border: none;
- outline: none;
- background-color: transparent;
+     position: relative;
+     border: none;
+     outline: none;
+     background-color: transparent;
 }
-.signin-form .btn--close{
-position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  border: 1px solid red;
-  top:-30px;
-  right: -30px;
+
+.signin-form i{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+
+    top: 0;
+    right: 3px;
+    border-radius: 20px !important;
 }
-.signin-form .btn--close::before,
-.signin-form .btn--close::after{
-  content: "";
-  display: block;
-  width: 26px;
-  height: 2px;
-  background-color: red;
-  position: absolute;
-  top: 14px;
-  left: 2px;
-  transform: rotate(45deg);
-  
-}
-.signin-form .btn--close::after{
-  transform: rotate(-45deg);
-}
-.signin-form .btn--submit{
-  
-}
+
 .overlay--visible .signin-form{
-  display: block;
+     display: block;
 }
+
+.logo__form{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-image: url(../img/logo_sporthold.png);
+    width: 182px;
+    height: 24px;
+    
+}
+
+.signin-form label{
+    float: left;
+    margin-bottom: 10px;
+    line-height: 21px;
+  
+}
+
+.signin-field{
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.btn--submit{
+    position: absolute !important;
+    bottom: 40%;
+    right: 60px;
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+}
+
+.btn--submit:hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
