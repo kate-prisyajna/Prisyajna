@@ -46,6 +46,8 @@
     background-color: var(--bgc_pinc);
     padding-top: 75px;
     padding-bottom: 70px;
+    clear: both;
+
     
 }
 

@@ -116,25 +116,23 @@ float: right;
     font-family: 'Trueno', sans-serif;
     font-weight: 200;
     font-style: normal;
- 
-  
+    
 }
     
 .navigation--main .navigation__list {
-/*   padding-top: 33px;*/
-/*  padding-bottom: 20px;*/
    font-size: 0;
    line-height: 77px;
    vertical-align: middle;
    float: right;
 }
 
+
 .navigation--main .navigation__item {
   
    display: inline-block;
    margin-right: 34px;
    vertical-align: middle;
-  
+   position:   relative;
 }
 
 .navigation--main .navigation__item:last-child {
@@ -143,22 +141,19 @@ float: right;
 }
 
 .navigation--main .navigation__link {
-    position: relative;
+/*    position: relative;*/
     font-size: 16pt;
-    line-height: 26pt;
+/*    line-height: 77px;*/
     color: var(--txt-color-plain);
     transition: color 0.5s linear;
-    
-    
-    
-  
 }
 
 .navigation--main .navigation__link::after {
   
     content: "";
     position: absolute;
-    top: 188%;
+    bottom: 0;
+    bottom: 0;
     left: 0;
     width: 0;
     height: 4px;

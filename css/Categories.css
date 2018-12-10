@@ -14,7 +14,6 @@
     
 }
 .categories h5{
-    font-family: 'Trueno', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 30px;
@@ -25,7 +24,6 @@
 }
 
 .categories h3{
-    font-family: 'Trueno', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
@@ -46,6 +44,13 @@
 
 .categories__nike h3{
    color: #41d9cd; 
+}
+
+.categories__athletas h3{
+   color: var(--txt-color-invert); 
+}
+.categories__premium h5{
+   color: #6b7072; 
 }  
 
 .categories__nike div{
@@ -62,7 +67,11 @@
     background-color: #41d9cd;  
     margin: 445px auto 50px;
 }
-    
+
+ .categories__arrivals button{
+    background-color: #633231; 
+    margin: 30px 58px 60px 58px;
+}   
 
 
 
@@ -80,9 +89,19 @@
     height: 255px;
     background-image: url("../img/new_arriavals.png");
     background-repeat: no-repeat;
+    background-position: bottom left;
     margin-bottom: 30px;
+    background-color: var(--bgc_pinc);
     
 
+}
+
+.arrivals__text{
+    width: 260px;
+    height: 195px;
+    float: right !important;
+    margin-right: 65px;
+    margin-top: 60px;
 }
 
 .categories__athletas{
@@ -91,7 +110,6 @@
     background-image: url("../img/athletes.png");
     background-repeat: no-repeat;
     margin-right: 30px;
-    
 }
 
 .categories__premium{
