@@ -1,0 +1,82 @@
+/* OVERLAY */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 99;
+}
+.overlay__reg{
+  position: fixed;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.75);
+  z-index: 99;   
+}
+.overlay--visible {
+  bottom: 0;
+}
+
+/* SIGN IN FORM */
+.signin-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  width: 500px;
+  height: 420px;
+  background-color: white;
+  padding: 30px;
+  color: var(--txt-color-active);
+  display: none;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px 55px;
+    background: var(--bgc_pinc);
+    background: linear-gradient(to top left, #f1a8a7, var(--bgc_pinc), grey, white);
+
+}
+.signin-form .btn{
+ position: relative;
+ border: none;
+ outline: none;
+ background-color: transparent;
+}
+.signin-form .btn--close{
+position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid red;
+  top:-30px;
+  right: -30px;
+}
+.signin-form .btn--close::before,
+.signin-form .btn--close::after{
+  content: "";
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  top: 14px;
+  left: 2px;
+  transform: rotate(45deg);
+  
+}
+.signin-form .btn--close::after{
+  transform: rotate(-45deg);
+}
+.signin-form .btn--submit{
+  
+}
+.overlay--visible .signin-form{
+  display: block;
+}

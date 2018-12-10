@@ -3,11 +3,9 @@
 .banner {
     margin: 0;
     padding: 0;
-    height: 480px;
+    height: 445px;
     margin-left: 570px;
-    margin-top: 245px;
-/*    background-color: #f0efee;*/
- 
+    margin-top: 130px;
 }
 
 .boot__bg{
@@ -92,8 +90,6 @@
     text-align: center;
     background-color: var(--bgc_pinc);
     font-family: 'Trueno', sans-serif;
-    font-weight: 400;
-    font-style: bold;
     font-size: 16px;
     color: #ffff;
     

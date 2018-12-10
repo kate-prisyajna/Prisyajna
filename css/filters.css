@@ -54,7 +54,15 @@
 
 .product__item img{
     text-align: center;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
 }
+
+.product__item img:hover{
+	width: 110%;
+/*    height: 110%;*/
+ }
 
 
 .product__item h1{

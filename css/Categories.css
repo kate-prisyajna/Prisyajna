@@ -37,13 +37,10 @@
 
 .categories  button{
     border: 0;
-    text-align: center;
     padding: 20px 30px;
-    font-family: 'Trueno', sans-serif;
-    font-weight: 400;
-    font-style: bold;
     font-size: 16px;
     color: #ffff;
+    display: block;
     
 }
 
@@ -63,14 +60,13 @@
 
 .categories__nike button{
     background-color: #41d9cd;  
-    display: block;
     margin: 445px auto 50px;
 }
     
 
 
 
-.categories__nike{
+.categories__nike{ 
     width: 540px;
     height: 540px;
     background-image: url("../img/nike_kurie.png");

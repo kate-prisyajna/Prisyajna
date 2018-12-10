@@ -1,37 +1,33 @@
 .brands{
-    
+    display: flex;
+    flex-direction: row;
+    float: left;
+    align-items: center;
+    justify-content:space-between;
+    height: 210px;
+    padding-bottom: 30px;
 }
 
 
 .brands div{
+    text-align: center;
+    margin: auto;
     width: 185px;
-    height: 215px;
-    background-position: center center;
-    float: left;
-    background-repeat: no-repeat;
-    margin-bottom: 30px;
 }
 
-.brands div:nth-child(1){
-    background-image: url(../img/brand_adidas_1.png);
+.brands a{
+    display: block;
 }
 
-.brands div:nth-child(2){
-    background-image: url(../img/brand_nike_2.png);
+.brands img:hover{
+    -webkit-transform: rotate(360deg) scale(1.4);
+	transform: rotate(360deg) scale(1.4);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
-.brands div:nth-child(3){
-    background-image: url(../img/brand_puma_3.png);
+.brands img{
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
 }
 
-.brands div:nth-child(4){
-    background-image: url(../img/brand_asics_4.png);
-}
-
-.brands div:nth-child(5){
-    background-image: url(../img/brand_nb_5.png);
-}
-
-.brands div:nth-child(6){
-    background-image: url(../img/brand_fila_6.png);
-}
