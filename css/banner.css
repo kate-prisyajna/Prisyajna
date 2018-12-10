@@ -6,23 +6,34 @@
     height: 480px;
     margin-left: 570px;
     margin-top: 245px;
-        
+/*    background-color: #f0efee;*/
+ 
 }
-.boot{
+
+.boot__bg{
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: #f0efee;
-    background-position: left; 
-    background-repeat: no-repeat;
     height: 600px;
-    background-image: url("../img/Pinc_nike.png");
-/*        background-image: url("../img/banner_all.png");*/
-
     position: absolute;
     top: 126px;
     left: 0;
     z-index: -50;
+    min-width: 1140px;
+ 
+}
+
+.boot{
+    position: absolute;
+    top: 126px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0efee;
+    height: 600px;
+    right: 51%;
+    z-index: -50;
+    overflow: hidden; 
             
 }
 

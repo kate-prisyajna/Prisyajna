@@ -86,6 +86,6 @@
 }
 
 .copyright span{
-    display: flex;
-    text-align: center center;
+    float: center;
+    margin: 0 auto;
 }

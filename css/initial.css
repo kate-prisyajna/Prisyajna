@@ -20,6 +20,10 @@
 
 }
 
+body{
+    min-width: var(--base-width);
+}
+
 header, 
 footer, 
 main, 
