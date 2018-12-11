@@ -35,7 +35,7 @@ body{
     padding: 0;
     max-width: 100%;
     width: 100%;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoLight', sans-serif;
     color: #fff;
   
 }
@@ -86,7 +86,7 @@ body{
     font-style: bold;
     font-weight: 600;
     cursor: pointer;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoRegular', sans-serif;
       
 }
 
@@ -122,4 +122,9 @@ li{
 
 a, a:visited{
     color: #fff;
+}
+
+hr{
+    clear: both;
+    width: 100%;
 }

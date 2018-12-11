@@ -95,12 +95,13 @@ hr{
 
 .summary__contacts{
     font-size: 16px;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoLight', sans-serif;
     line-height: 30px;
 }
 
 .summary__contacts span, .summary__list li:first-child{
     font-weight: 600;
+    font-family: 'TruenoRegular', sans-serif;
     color: var(--txt-color-invert);
     text-transform: uppercase;
     line-height: 30px;

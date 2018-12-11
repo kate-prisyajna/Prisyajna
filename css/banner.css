@@ -38,7 +38,7 @@
 .banner h3 {
     margin: 0;
     padding: 0;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoLight', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 30px;
@@ -49,8 +49,8 @@
 .banner h1 {
     margin: 0;
     padding: 0;
-    font-family: 'Trueno', sans-serif;
-    font-weight: 800;
+    font-family: 'TruenoULTRABLACK', sans-serif;
+/*    font-weight: 800;*/
     font-style: normal;
     font-size: 70px;
     color: var(--txt-color-active);
@@ -61,8 +61,8 @@
 .banner h2 {
     margin: 0;
     padding: 0;
-    font-family: 'Trueno', sans-serif;
-    font-weight: 800;
+    font-family: 'TruenoULTRABLACK', sans-serif;
+/*    font-weight: 800;*/
     font-style: normal;
     font-size: 50px;
     color: var(--txt-color-invert);
@@ -75,7 +75,7 @@
     padding: 0;
     padding-top: 25px;
     padding-bottom: 30px;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoLight', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 16px;
@@ -89,7 +89,6 @@
     padding: 20px 50px;
     text-align: center;
     background-color: var(--bgc_pinc);
-    font-family: 'Trueno', sans-serif;
     font-size: 16px;
     color: #ffff;
     

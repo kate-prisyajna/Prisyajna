@@ -22,7 +22,7 @@
     padding: 0;
     background-color: var(--bgc_brown_dark);
     height: 50px;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoLight', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 13pt;
@@ -44,8 +44,6 @@
 
 .menu .left span{
     margin-right: 40px;
-/*    padding-right: 20px;*/
-
 }
 
 .right{
@@ -90,7 +88,7 @@ float: right;
     margin: 0;
     padding: 0;
     background-color: var(--bgc_brown2_light);
-    height: 76px;
+    height: 77px;
     z-index: 999;
 }
 .navigation__list, 
@@ -114,14 +112,13 @@ float: right;
 .navigation--main {
   
     width: 100%;
-    font-family: 'Trueno', sans-serif;
+    font-family: 'TruenoLight', sans-serif;
     font-weight: 200;
     font-style: normal;
     
 }
     
 .navigation--main .navigation__list {
-   font-size: 0;
    line-height: 77px;
    vertical-align: middle;
    float: right;
