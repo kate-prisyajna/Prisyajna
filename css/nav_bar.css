@@ -141,9 +141,7 @@ float: right;
 }
 
 .navigation--main .navigation__link {
-/*    position: relative;*/
     font-size: 16pt;
-/*    line-height: 77px;*/
     color: var(--txt-color-plain);
     transition: color 0.5s linear;
 }
