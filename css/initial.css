@@ -85,6 +85,8 @@ body{
     text-align: center;
     font-style: bold;
     font-weight: 600;
+    cursor: pointer;
+    font-family: 'Trueno', sans-serif;
       
 }
 

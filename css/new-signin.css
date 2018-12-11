@@ -47,6 +47,7 @@
      border: none;
      outline: none;
      background-color: transparent;
+    cursor: pointer;
 }
 
 .signin-form i{
@@ -98,6 +99,7 @@
     border-radius: 50px;
     display: inline-block;
     border: none;
+    
 }
 
 .btn--submit:hover{
@@ -106,4 +108,14 @@
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
+
+.btn--close{
+    cursor: pointer;
+}
+
+
+
+
+
+
 
