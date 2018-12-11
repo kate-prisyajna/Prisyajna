@@ -6,13 +6,12 @@
     background-color: #fff;
     height: 540px;
     margin-top: 50px;
-
 }
 
 .categories div{
     float: left;
-    
 }
+
 .categories h5{
     font-weight: 200;
     font-style: normal;
@@ -30,7 +29,6 @@
     text-align: center;
     line-height: 30px;
     margin: 0;
-
 }
 
 .categories  button{
@@ -39,7 +37,6 @@
     font-size: 16px;
     color: #ffff;
     display: block;
-    
 }
 
 .categories__nike h3{
@@ -49,6 +46,7 @@
 .categories__athletas h3{
    color: var(--txt-color-invert); 
 }
+
 .categories__premium h5{
    color: #6b7072; 
 }  
@@ -59,7 +57,6 @@
     width: 440px;
     margin: 50px;
     background-position: left center;
-        
 }
 
 
@@ -73,15 +70,12 @@
     margin: 30px 58px 60px 58px;
 }   
 
-
-
 .categories__nike{ 
     width: 540px;
     height: 540px;
     background-image: url("../img/nike_kurie.png");
     background-repeat: no-repeat;
     margin-right: 30px;
-    
 }
 
 .categories__arrivals{
@@ -92,8 +86,6 @@
     background-position: bottom left;
     margin-bottom: 30px;
     background-color: var(--bgc_pinc);
-    
-
 }
 
 .arrivals__text{
@@ -111,6 +103,7 @@
     background-repeat: no-repeat;
     margin-right: 30px;
 }
+
 .athletas__text{
     padding-left: 50px;
     padding-top: 150px;

@@ -48,17 +48,6 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
-      
-}
-
-
-
-.clearfix::after {
-  
-  content: "";
-  display: table;
-  clear: both;
-  
 }
 
 .visually-hidden {

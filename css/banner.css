@@ -1,6 +1,6 @@
 /*Banner*/
 
-.banner {
+.banner{
     margin: 0;
     padding: 0;
     height: 445px;
@@ -19,20 +19,21 @@
     left: 0;
     z-index: -50;
     min-width: 1140px;
- 
 }
 
 .boot{
-    position: absolute;
-    top: 126px;
-    margin: 0;
-    padding: 0;
-    background-color: #f0efee;
-    height: 600px;
-    right: 55%;
-    z-index: -50;
-    overflow: hidden; 
-            
+   	position: absolute;
+	top: 126px;
+	margin: 0;
+	padding: 0;
+	background-color: #f0efee;
+	height: 600px;
+	z-index: -50;
+	background: url('../img/Pinc_nike.png');
+	max-width: 774px;
+	left: 0;
+	background-position: right top;
+	width: 47%;
 }
 
 .banner h3 {
@@ -50,19 +51,16 @@
     margin: 0;
     padding: 0;
     font-family: 'TruenoULTRABLACK', sans-serif;
-/*    font-weight: 800;*/
     font-style: normal;
     font-size: 70px;
     color: var(--txt-color-active);
     line-height: 80px;
-       
 }
 
 .banner h2 {
     margin: 0;
     padding: 0;
     font-family: 'TruenoULTRABLACK', sans-serif;
-/*    font-weight: 800;*/
     font-style: normal;
     font-size: 50px;
     color: var(--txt-color-invert);
@@ -81,7 +79,6 @@
     font-size: 16px;
     color: #8a8784;
     line-height: 26px;
-    
 }
 
 .banner  button{
@@ -91,5 +88,4 @@
     background-color: var(--bgc_pinc);
     font-size: 16px;
     color: #ffff;
-    
 }

@@ -1,22 +1,22 @@
 /*Nav Bar*/
 
-.header {
+.header{
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
 }
 
-.sticky {
+.sticky{
   position: fixed;
   top: 0;
   width: 100%
 }
 
-.sticky + .content {
+.sticky + .content{
   padding-top: 102px;
 } 
 
-.menu {
+.menu{
     display: block;
     margin: 0;
     padding: 0;
@@ -28,7 +28,6 @@
     font-size: 13pt;
     color: var(--txt-color-plain);
     line-height: 50px;
-
 }
 
 
@@ -36,7 +35,6 @@
     color: var(--txt-color-invert);
     cursor: pointer;
 }
-
 
 .menu .left{
     display: inline-block;
@@ -60,18 +58,14 @@ float: right;
     color: var(--txt-color-items);
 }
 
-
 .logo__img{
     display: inline-block;
     float: left;
     padding-top: 24px;
-    
 }
 
 .login, .register{
     padding: 15px;
-    
-    
 }
 
 .login:hover, 
@@ -82,7 +76,7 @@ float: right;
     cursor: pointer;
 }
 
-.navigation {
+.navigation{
     box-sizing: border-box;
     display: block;
     margin: 0;
@@ -91,26 +85,22 @@ float: right;
     height: 77px;
     z-index: 999;
 }
+
 .navigation__list, 
-.navigation__item {
-  
+.navigation__item{
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: right;
 }
 
-.navigation__link {
-  
+.navigation__link{
     text-decoration: none;
     color: inherit;
     height: inherit;
-
-  
 }
 
-.navigation--main {
-  
+.navigation--main{
     width: 100%;
     font-family: 'TruenoLight', sans-serif;
     font-weight: 200;
@@ -118,22 +108,21 @@ float: right;
     
 }
     
-.navigation--main .navigation__list {
+.navigation--main .navigation__list{
    line-height: 77px;
    vertical-align: middle;
    float: right;
 }
 
 
-.navigation--main .navigation__item {
-  
+.navigation--main .navigation__item{
    display: inline-block;
    margin-right: 34px;
    vertical-align: middle;
    position:   relative;
 }
 
-.navigation--main .navigation__item:last-child {
+.navigation--main .navigation__item:last-child{
    margin-right: 0;
   
 }
@@ -159,19 +148,15 @@ float: right;
 }
 
 .navigation--main .navigation__link:hover, 
-.navigation--main .navigation__link--active {
-  
+.navigation--main .navigation__link--active{
     color: var(--txt-color-invert);
     cursor: pointer;
   
 }
 
 .navigation--main .navigation__link:hover::after, 
-.navigation--main .navigation__link--active::after {
-  
+.navigation--main .navigation__link--active::after{
     width: 100%;
-
-  
 }
    
 .menu .right i{
@@ -183,8 +168,7 @@ float: right;
     margin-right: 3px;
 }
 
-
-.menu .right i:hover {
+.menu .right i:hover{
 	background: rgba(255,255,255,0.05);
 	-webkit-transform: scale(1.6);
 	-moz-transform: scale(1.6);
