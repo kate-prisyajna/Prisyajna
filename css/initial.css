@@ -119,3 +119,7 @@ li{
 #myBtn:hover {
   background-color: var(--bgc_pinc); 
 }
+
+a, a:visited{
+    color: #fff;
+}

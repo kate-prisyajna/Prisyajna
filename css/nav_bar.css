@@ -106,6 +106,7 @@ float: right;
   
     text-decoration: none;
     color: inherit;
+    height: inherit;
 
   
 }
@@ -151,12 +152,12 @@ float: right;
     content: "";
     position: absolute;
     bottom: 0;
-    bottom: 0;
     left: 0;
     width: 0;
     height: 4px;
     background-color: var(--txt-color-invert);
     transition: width 0.5s linear;
+    box-sizing: border-box;
       
 }
 
